@@ -14,7 +14,7 @@ include('../php/config.php');
             @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             #body-ativ{
                 font-family: 'Work Sans', sans-serif;
-                background-color: #bfddf8;
+                background-color: white;
                 margin: 0px;
                 padding: 0px;
             }
@@ -37,9 +37,11 @@ include('../php/config.php');
             }
             #form-ativ{
                 width: 90%;
-                background-color: #7A9FBF;
-                border-radius: 10px;
+                background-color: #white;
+                border: 1px solid black;
+                border-radius: 5px;
                 padding-bottom: 10px;
+                box-shadow: 4px 3px rgb(117, 114, 114);
             }
             .card-ativ{
                 border: 1px solid black;
@@ -90,7 +92,7 @@ include('../php/config.php');
 </head>
 <body id="body-ativ">
     <nav id="nav-ativ">
-        <p>Eta Carinae</p>
+        <p>Saturn</p>
         <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
     </nav>
     <main id="main-ativ">

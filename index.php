@@ -7,12 +7,12 @@ include('php/config.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eta Carinae</title>
+    <title>Saturn</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 </head>
 <body id="body-home">
     <nav id="nav-home">
-        <p>Eta Carinae</p>
+        <p>Saturn</p>
         <div class="options-nav">
             <a href="index.php">Home</a>
             <a href="login.php">Login</a>
@@ -21,17 +21,17 @@ include('php/config.php');
     </nav>
     <main id="main-home">
         <div id="card-home">
-            <h2>Eta Carinae</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-            in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            
+            <img src="imgs/saturn.jpg" width="110px">
+            <h2>Saturn Project</h2>
+            <p class="p-home">
+            Olá, este é o Saturn Project, ele é constituído por um site e um aplicativo mobile. 
+            Seu nome se é a versão em inglês de Saturno, o planeta.
             </p>
-            <img src="imgs/universo.png" width="100%" alt="Logo do projeto">
+            <p class="p-home">
+            Para realizar o download do aplicativo mobile do nosso projeto, clique no botão de 
+            download e instale o app em seu celular (disponível apenas para dispositivos android).
+            </p>
             <a href="imgs/icones/icon-download.png" download><button id="btn-download">Dowload <img src="imgs/icones/icon-download.png" width="20px" alt="Icone de download"></button></a>
         </div>
     </main>

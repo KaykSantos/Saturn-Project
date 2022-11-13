@@ -9,7 +9,7 @@ body {
 }
 /* ========== Home ==========*/
 #body-home{
-    background-color: #bfddf8;
+    background-color: white;
 }
 #nav-home{
     background-color: #0D0D0D;
@@ -51,33 +51,40 @@ body {
     border-radius: 10px;
     width: 500px;
     padding: 20px;    
+    padding-top: 5px;
     justify-content: center;
     align-items: center;
     align-self: center;
     text-align: center;
     margin-top: 10px;
-    background-color: #7A9FBF;
+    background-color: #ffffff;
+    box-shadow: 4px 3px rgb(117, 114, 114);
 }
 #card-home p{
     margin-top: 10px;
     text-align: justify;
 }
 #btn-download{
-    background-color: rgb(63, 245, 63);
+    background-color: rgb(0, 0, 0);
     border: 1px solid black;
     border-radius: 15px;
     padding: 10px;
     font-size: 20px;
     transition: 0.2s;
+    margin-top: 30px;
+    color: white;
 }
 #btn-download:hover{
     cursor:pointer;
-    background-color: rgb(22, 189, 22);
-}
+    background-color: rgb(39, 40, 41);
 
+}
+.p-home{
+    font-size: 20px;
+}
 /* ========== Login ==========*/
 #body-login{
-    background-color: #bfddf8;
+    background-color: #ffffff;
 }
 #main-login{
     display: flex;
@@ -104,29 +111,34 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #1C618C;
+    background-color: #ffffff;
+    box-shadow: 4px 3px rgb(117, 114, 114);
 }
 #form-login input{
     margin-top: 20px;
     width: 100%;
 }
 #form-login p{
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
 }
 #form-login button{
     margin-top: 10px;
-    width: 70px;
+    width: 100px;
     height: 30px;
     border-radius: 5px;
     border: none;
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
     transition: 0.2s;
 }
 #form-login button:hover{
     cursor: pointer;
-    background-color: rgb(204, 181, 181);
+    background-color: rgb(75, 72, 72);
 }
 #nav-login{
     background-color: #0D0D0D;
@@ -154,9 +166,11 @@ body {
 .inputLogCad{
     height: 25px;
     padding: 5px;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
     border: none;
     outline: none;
+    background-color: #bec6ca;
 }
 .inputLogCad:focus{
     border-bottom: 2px solid black;
@@ -188,7 +202,7 @@ body {
     background-color: #706a6a;
 }
 #body-cad{
-    background-color: #bfddf8;
+    background-color: #ffffff;
 }
 #main-cad{
     display: flex;
@@ -215,31 +229,35 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #1C618C;
+    background-color: #ffffff;
+    box-shadow: 4px 3px rgb(117, 114, 114);
 }
 #form-cad input{
     margin-top: 20px;
     width: 100%;
 }
 #form-cad p{
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
 }
 #form-cad button{
     margin-top: 10px;
-    width: 70px;
+    width: 100px;
     height: 30px;
     border-radius: 5px;
     border: none;
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
     transition: 0.2s;
 }
 #form-cad button:hover{
     cursor: pointer;
-    background-color: rgb(204, 181, 181);
+    background-color: rgb(75, 72, 72);
 }
-
 
 /* ========================================= Pop-up's ========================================= */
 #error-senha{

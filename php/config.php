@@ -2,9 +2,9 @@
 header("Access-Control-Allow-Origin: *");
 session_start();
 define('HOST', 'localhost');
-define('USUARIO', 'devjekvf_user');
-define('SENHA', 'niohectmuckz');
-define('DB', 'devjekvf_biblioteca');
+define('USUARIO', 'root');
+define('SENHA', '');
+define('DB', 'project_etacarinae');
 
 $conn = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar ao banco');
 

@@ -14,12 +14,12 @@ if($_POST){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Eta Carinae</title>
+    <title>Login - Saturn</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 </head>
 <body id="body-cad">
     <nav id="nav-cad">
-        <p>Eta Carinae</p>
+        <p>Saturn</p>
         <div class="options-cad">
             <a href="index.php">Home</a>
             <a href="login.php">Login</a>
@@ -29,11 +29,12 @@ if($_POST){
     <main id="main-cad">
         <section id="section-cad">
             <form method="post" autocomplete="off" id="form-cad">
+                <img src="imgs/saturn.jpg" width="110px">
                 <p>Cadastro</p>
                 <input type="text" id="nome" name="nome" placeholder="Nome" class="inputLogCad">
                 <input type="email" id="email" name="email" placeholder="Email" class="inputLogCad">
                 <input type="password" id="password" name="password" placeholder="Senha" class="inputLogCad">
-                <button name="cadastrar">Cadastrar</button>
+                <button name="cadastrar" id="btn-cad">Cadastrar</button>
             </form>
             <?php
                 if(isset($_SESSION['error-cad'])):
