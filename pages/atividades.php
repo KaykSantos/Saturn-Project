@@ -29,14 +29,14 @@ include('../php/config.php');
             }
             .tituloCard{
                 margin-top: 5px;
-                margin-left: 8vw;
+                margin-left: 2vw;
                 margin-bottom: 0px;
                 font-size: 20px;
                 font-weight: bold;
-                color: white
+                color: black;
             }
             #form-ativ{
-                width: 90%;
+                width: 60%;
                 background-color: #white;
                 border: 1px solid black;
                 border-radius: 5px;
@@ -46,7 +46,7 @@ include('../php/config.php');
             .card-ativ{
                 border: 1px solid black;
                 border-radius: 5px;
-                width: 80%;
+                width: 90%;
                 padding: 10px;
                 margin-top: 10px;
                 margin-left: auto;
@@ -85,27 +85,33 @@ include('../php/config.php');
                 font-weight: bold;
                 color: white;
             }
+            #nav-ativ div{
+                height: 50px;
+            }
             .noStyleA{
                 text-decoration: none;
+            }
+            #nova-at{
+                float: right;
             }
     </style>
 </head>
 <body id="body-ativ">
     <nav id="nav-ativ">
         <p>Saturn</p>
-        <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+        <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" height="30px"></a>
     </nav>
     <main id="main-ativ">
         <form id="form-ativ">
-            
+            <p class="tituloCard">Atividades:</p>
             <?php
-                $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
+                $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
-                $empresa = "";
-                foreach($res as $row){
-                    $empresa = $row['id_empresa'];
-                }
-                if($empresa == ""){
+                $rows = mysqli_num_rows($res);
+                //$rows = 1;
+                $obj1 = $res->fetch_object();
+                //echo 'Número de usuários: '.$rows;
+                if($rows < 1){
                     echo '
                         <div class="card-ativ">
                             <p>Entre em uma empresa para poder receber atividades.</p>
@@ -113,6 +119,20 @@ include('../php/config.php');
                             <a href="cad.php?criar=1" class="noStyleA">Criar empresa</a>
                         </div>
                     ';
+                }else if($rows == 1){
+                    $query = 'SELECT * FROM vwAtividades WHERE id_empresa = '.$obj1->id_empresa;
+                    $res = $GLOBALS['conn']->query($query);
+                    foreach($res as $row){
+                        echo '
+                            <div class="card-ativ">
+                                <p>Atividade: '.$row['nm_atividade'].'</p>
+                                <p>Tag: '.$row['nm_tag'].'</p>
+                                <p>Vencimento: '.$row['dt_entrega'].'</p>
+                                <button>Abrir</button>
+                            </div>
+
+                        ';
+                    }                            
                 }
             ?>
             <!--<p class="tituloCard">Atividades:</p>

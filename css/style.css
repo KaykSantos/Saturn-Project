@@ -169,8 +169,9 @@ body {
     border: 2px solid black;
     border-radius: 2px;
     border: none;
+    border-bottom:2px solid black;
     outline: none;
-    background-color: #bec6ca;
+    background-color: white;
 }
 .inputLogCad:focus{
     border-bottom: 2px solid black;

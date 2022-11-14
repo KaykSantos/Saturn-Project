@@ -32,7 +32,7 @@ include('php/config.php');
             Para realizar o download do aplicativo mobile do nosso projeto, clique no botão de 
             download e instale o app em seu celular (disponível apenas para dispositivos android).
             </p>
-            <a href="imgs/icones/icon-download.png" download><button id="btn-download">Dowload <img src="imgs/icones/icon-download.png" width="20px" alt="Icone de download"></button></a>
+            <a href="imgs/icones/icon-download.png" download><button id="btn-download">Download <img src="imgs/icones/icon-download.png" width="20px" alt="Icone de download"></button></a>
         </div>
     </main>
 </body>

@@ -1,5 +1,8 @@
 <?php
 include('../php/config.php');
+if(!isset($_SESSION['cdUser'])){
+    header('Location: ../index.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -35,7 +38,7 @@ include('../php/config.php');
                 color: white
             }
             #form-home{
-                width: 90%;
+                width: 60%;
                 background-color: white;
                 border-radius: 5px;
                 border: 1px solid black;
@@ -45,7 +48,7 @@ include('../php/config.php');
             .card-home{
                 border: 1px solid black;
                 border-radius: 5px;
-                width: 80%;
+                width: 90%;
                 padding: 10px;
                 margin-top: 10px;
                 margin-left: auto;
@@ -87,13 +90,18 @@ include('../php/config.php');
             .noStyleA{
                 text-decoration: none;
             }
+            #img-add{
+                border: 4px solid white;
+                border-radius: 30px;
+            }
     </style>
 </head>
 <body id="body-home">
     <nav id="nav-home">
-        <p>Eta Carinae</p>
+        <p>Saturn</p>
         <div>
             <a href="atividades.php"><img src="../imgs/icones/atividade.png" alt="Icone de atividades" height="50px"></a>
+            <a href="cad.php?nova-ativ=1" id="nova-at"><img src="../imgs/icones/add.png" id="img-add" alt="Icone de cadastro de atividade" height="40px"></a>
             <a href="conta.php"><img src="../imgs/icones/conta.png" alt="Icone de conta" height="50px"></a>
         </div>
         
@@ -102,7 +110,7 @@ include('../php/config.php');
         <form method="post" id="form-home">
             <p class="tituloCard">Atividades:</p>
             <?php
-                $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
+                $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
                 $empresa = "";
                 foreach($res as $row){

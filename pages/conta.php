@@ -37,14 +37,14 @@ if($_POST){
         }
         .tituloCard{
             margin-top: 5px;
-            margin-left: 7%;
+            margin-left: 1vw;
             margin-bottom: 0px;
             font-size: 20px;
             font-weight: bold;
-            color: white
+            color: black;
         }
         #form-conta{
-            width: 90%;
+            width: 400px;
             background-color: white;
             border: 1px solid black;
             border-radius: 5px;
@@ -53,7 +53,7 @@ if($_POST){
         .card-conta{
             border: 1px solid black;
             border-radius: 5px;
-            width: 80%;
+            width: 90%;
             padding: 10px;
             margin-top: 10px;
             margin-bottom: 10px;
@@ -127,7 +127,7 @@ if($_POST){
 </head>
 <body id="body-conta">
     <nav id="nav-conta">
-        <p>Eta Carinae</p>
+        <p>Saturn</p>
         <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
     </nav>
     <main id="main-conta">

@@ -1,0 +1,521 @@
+[13-Nov-2022 16:46:09 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:09 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:09 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:16 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:16 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:16 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[13-Nov-2022 16:46:25 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[13-Nov-2022 16:46:38 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 140
+[14-Nov-2022 12:08:56 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:08:56 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:08:56 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:19 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:19 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:19 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:27 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:27 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:27 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:33 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:33 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:33 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:49 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:49 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:11:49 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:36 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:36 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:36 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:51 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:51 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:21:51 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:26:34 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:26:34 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:26:34 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:28:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:28:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:28:50 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:29:02 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:29:02 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:29:02 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:13 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:13 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:13 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:17 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:17 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:17 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:32 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:32 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:32 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:41 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:41 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:32:41 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:33:30 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:33:30 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:33:30 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:12 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:12 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:12 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:34:23 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:23 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:49 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:49 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:49 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:35:50 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:36:59 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:36:59 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:36:59 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:19 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:19 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:19 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:21 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:21 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:21 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:22 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:22 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:22 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:23 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:24 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:24 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:24 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:27 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:27 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:27 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:31 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:31 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:37:31 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:03 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:03 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:03 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:16 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:16 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:16 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:17 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:17 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:17 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:50 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:50 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:55 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:55 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:55 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:58 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:58 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:38:58 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:23 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:23 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:30 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:30 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:30 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:36 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:36 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:36 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:38 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:38 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:38 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:39 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:39 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:39 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:40 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:40 America/Fortaleza] PHP Warning:  include(php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:41:40 America/Fortaleza] PHP Warning:  include(): Failed opening 'php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:36 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:36 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:36 America/Fortaleza] PHP Warning:  include(): Failed opening './php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:38 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:38 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:38 America/Fortaleza] PHP Warning:  include(): Failed opening './php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:39 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:39 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:43:39 America/Fortaleza] PHP Warning:  include(): Failed opening './php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:44:43 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:44:43 America/Fortaleza] PHP Warning:  include(./php/config.php): failed to open stream: No such file or directory in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:44:43 America/Fortaleza] PHP Warning:  include(): Failed opening './php/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/devjekvf/public_html/saturn/pages/cad.php on line 2
+[14-Nov-2022 12:44:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function EntrarEmpresa() in /home1/devjekvf/public_html/saturn/pages/cad.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 7
+[14-Nov-2022 12:45:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('Etec de Peru\xC3\xADb...', 'Ensino M\xC3\xA9dio I...')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 12:45:55 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 12:46:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('Etec de Peru\xC3\xADb...', 'Ensino M\xC3\xA9dio I...')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 12:46:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('Teste', 'teteteteteeste')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 12:48:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste', 'testeteste1')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:04:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('Etec', 'teste steste')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:08:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 1', 'teste 1')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:10:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 2', 'teste 2')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:12:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 3', 'teste 3')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:13:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 4', 'teste 4')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:14:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 5', 'teste 5')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:15:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 6', '12141241')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:19:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 6', '12141241')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:19:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 6', '12141241')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:19:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 6', '12141241')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:20:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function last_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 6', '12141241')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:21:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 7', 'teste 7')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 13:46:29 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 13:46:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 105
+[14-Nov-2022 13:47:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 105
+[14-Nov-2022 13:47:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 105
+[14-Nov-2022 13:47:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 105
+[14-Nov-2022 13:48:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 105
+[14-Nov-2022 13:48:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:49:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 13:50:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_rows() in /home1/devjekvf/public_html/saturn/pages/atividades.php:104
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 104
+[14-Nov-2022 14:15:40 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:15:42 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:15:56 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:15:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:16:52 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 121
+[14-Nov-2022 14:18:26 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:18:30 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:18:49 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:18:50 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:18:50 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:21:23 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:21:50 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:22:25 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:23:27 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 120
+[14-Nov-2022 14:24:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('Teste 5', '1325')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 14:29:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/php/config.php:95
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(7): EntrarEmpresa(NULL)
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:30:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/php/config.php:95
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(7): EntrarEmpresa(NULL)
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:31:50 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:32:14 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:32:20 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:32:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:32:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:32:46 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:33:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:33:20 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:33:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:34:04 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:34:13 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:37:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:37:41 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 14:37:46 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/php/config.php on line 95
+[14-Nov-2022 15:02:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 124
+[14-Nov-2022 15:03:04 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 123
+[14-Nov-2022 15:03:05 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 123
+[14-Nov-2022 15:03:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 123
+[14-Nov-2022 15:04:02 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:05:19 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:05:26 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:05:35 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:06:40 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:07:40 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:08:47 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:08:59 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:09:32 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:09:57 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:10:09 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:10:17 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 15:10:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:15:18 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:15:45 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 126
+[14-Nov-2022 15:21:31 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 16:23:46 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/cad.php on line 75
+[14-Nov-2022 16:25:54 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/cad.php on line 77
+[14-Nov-2022 16:25:58 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/cad.php on line 77
+[14-Nov-2022 16:26:00 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/cad.php on line 77
+[14-Nov-2022 16:26:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:26:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:71
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 71
+[14-Nov-2022 16:27:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:72
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 72
+[14-Nov-2022 16:27:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:72
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 72
+[14-Nov-2022 16:28:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:73
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 73
+[14-Nov-2022 16:28:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:73
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 73
+[14-Nov-2022 16:29:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:74
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 74
+[14-Nov-2022 16:29:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:75
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 75
+[14-Nov-2022 16:30:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:75
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 75
+[14-Nov-2022 16:30:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:75
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 75
+[14-Nov-2022 16:31:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/cad.php:75
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 75
+[14-Nov-2022 16:41:41 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 113
+[14-Nov-2022 16:41:44 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 140
+[14-Nov-2022 16:42:03 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 140
+[14-Nov-2022 16:42:15 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 113
+[14-Nov-2022 16:42:59 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:42:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:43:15 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:43:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:43:33 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:43:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:22 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 113
+[14-Nov-2022 16:44:29 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 110
+[14-Nov-2022 16:44:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/atividades.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 112
+[14-Nov-2022 16:44:31 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 113
+[14-Nov-2022 16:44:33 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 140
+[14-Nov-2022 16:45:15 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 16:46:23 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 16:46:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 140
+[14-Nov-2022 16:46:40 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 116
+[14-Nov-2022 16:46:56 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/conta.php on line 144
+[14-Nov-2022 16:48:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 8', 'teste 8')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72
+[14-Nov-2022 16:51:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_insert_id() in /home1/devjekvf/public_html/saturn/php/config.php:72
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(5): CadastrarEmpresa('teste 15', 'teste 15')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 72

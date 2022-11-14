@@ -34,7 +34,29 @@ CREATE TABLE tb_arquivo(
     ds_arquivo VARCHAR(500)
 );
 
+CREATE TABLE tb_empresa(
+    cd INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    nm_empresa VARCHAR(100),
+    ds_empresa LONGTEXT,
+    id_share VARCHAR(20)
+);
+
+CREATE TABLE tb_empresa_usuario(
+    id_empresa INT,
+    id_usuario INT,
+    FOREIGN KEY (id_empresa) REFERENCES tb_empresa (cd),
+    FOREIGN KEY (id_usuario) REFERENCES tb_usuario (cd)
+);
+
+CREATE TABLE tb_empresa_tag(
+    id_empresa INT,
+    id_tag INT,
+    FOREIGN KEY (id_empresa) REFERENCES tb_empresa (cd),
+    FOREIGN KEY (id_tag) REFERENCES tb_tags (cd)
+);
+
 CREATE VIEW vwAtividades AS 
-    SELECT a.*, tag.nm_tag AS nm_tag
-        FROM tb_tags tag, atividade a
-			WHERE a.id_tag = tag.cd;
+    SELECT a.*, tag.nm_tag AS nm_tag,e.cd AS nm_empresa
+        FROM tb_tags tag, tb_atividade a,tb_empresa e
+			WHERE a.id_tag = tag.cd 
+			AND e.cd = a.id_empresa;
