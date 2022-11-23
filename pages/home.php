@@ -31,11 +31,11 @@ if(!isset($_SESSION['cdUser'])){
             }
             .tituloCard{
                 margin-top: 5px;
-                margin-left: 8vw;
+                margin-left: 2vw;
                 margin-bottom: 0px;
                 font-size: 20px;
                 font-weight: bold;
-                color: white
+                color: black;
             }
             #form-home{
                 width: 60%;
@@ -100,8 +100,27 @@ if(!isset($_SESSION['cdUser'])){
     <nav id="nav-home">
         <p>Saturn</p>
         <div>
-            <a href="atividades.php"><img src="../imgs/icones/atividade.png" alt="Icone de atividades" height="50px"></a>
-            <a href="cad.php?nova-ativ=1" id="nova-at"><img src="../imgs/icones/add.png" id="img-add" alt="Icone de cadastro de atividade" height="40px"></a>
+            
+            <?php
+                $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
+                $res = $GLOBALS['conn']->query($query);
+                $rows = mysqli_num_rows($res);
+                $emp = $res->fetch_object();
+                // $empresa = "";
+                // foreach($res as $row){
+                //     $empresa = $row[''];
+                // }
+                if($rows > 0){
+                    echo '
+                        <a href="atividades.php"><img src="../imgs/icones/atividade.png" alt="Icone de atividades" height="50px"></a>
+                    ';
+                    if($emp->adm == 1){
+                        echo '
+                            <a href="cad.php?nova-ativ=1" id="nova-at"><img src="../imgs/icones/add.png" id="img-add" alt="Icone de cadastro de atividade" height="40px"></a>
+                        ';
+                    }
+                }
+            ?>
             <a href="conta.php"><img src="../imgs/icones/conta.png" alt="Icone de conta" height="50px"></a>
         </div>
         
@@ -110,20 +129,22 @@ if(!isset($_SESSION['cdUser'])){
         <form method="post" id="form-home">
             <p class="tituloCard">Atividades:</p>
             <?php
-                $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
+                $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
                 $empresa = "";
                 foreach($res as $row){
-                    $empresa = $row['id_empresa'];
+                    $empresa = $row['empresa'];
                 }
-                if($empresa == ""){
+                if($empresa == 0){
                     echo '
                         <div class="card-home">
                             <p>Entre em uma empresa para poder receber atividades.</p>
+                            <a href="cad.php?entrar=1" class="noStyleA">Entrar</a>
+                            <a href="cad.php?criar=1" class="noStyleA">Criar empresa</a>
                         </div>
                     ';
                 }else{
-                    echo 'ovo';
+                    echo 'Está na empresa';
                 }
             ?>
             <!---<div class="card-home">

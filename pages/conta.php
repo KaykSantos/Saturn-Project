@@ -138,20 +138,10 @@ if($_POST){
                     $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
                     $res = $GLOBALS['conn']->query($query);
                     foreach($res as $row){
-                        $query2 = 'SELECT * FROM tb_empresa WHERE cd = '.$row['id_empresa'];
-                        $res2 = $GLOBALS['conn']->query($query2);
-                        $grupo = "";
-                        foreach($res2 as $row2){
-                            $grupo = $row2['nm_empresa']; 
-                        }
-                        if($grupo == ""){
-                            $grupo = "Sem empresa";
-                        }
                         echo '
                             <p>ID de usuário: '.$row['cd'].'</p>
                             <p>Nome: '.$row['nm_usuario'].'</p>
                             <p>Email: '.$row['email_usuario'].'</p>
-                            <p>Empresa: '.$grupo.'</p> 
                             <div id="btns">
                                 <button id="alterar">Alterar</button>
                                 <button id="sair" name="sair">Sair</button>

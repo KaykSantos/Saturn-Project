@@ -16,8 +16,8 @@ function CadastrarUsuario($nome, $email, $senha){
     if($user > 0){
         echo 'Email já utilizado';
     }else{
-        $query = 'INSERT INTO tb_usuario (nm_usuario, email_usuario, senha, status_usuario)
-        VALUES ("'.$nome.'", "'.$email.'", "'.$senha.'", "Ativo")';
+        $query = 'INSERT INTO tb_usuario (nm_usuario, email_usuario, senha, status_usuario, empresa)
+        VALUES ("'.$nome.'", "'.$email.'", "'.$senha.'", "Ativo", 0)';
         $res = $GLOBALS['conn']->query($query);
         if($res){
             $_SESSION['cad-realizado'] = true;
@@ -69,36 +69,52 @@ function CadastrarEmpresa($nome, $descricao){
     $id_share = strtolower(substr($nome, 0, 2));
     $query = 'INSERT INTO tb_empresa (nm_empresa, ds_empresa) VALUES ("'.$nome.'","'.$descricao.'")';
     $res = $GLOBALS['conn']->query($query);
-    echo "sas";
-    // $id_emp = mysql_insert_id();
-    // $id_share .= $id_emp;
-    // if($res){
-    //     $query = 'UPDATE tb_empresa SET id_share = '.$id_share.' WHERE cd = '.$id_emp;
-    //     $res = $GLOBALS['conn']->query($query);
-    //     if($res){
-    //         $query = 'INSERT INTO tb_empresa_usuario (id_usuario, id_empresa, adm) VALUES ('.$_SESSION['cdUser'].', '.$id_emp.', 1)';
-    //         $res = $GLOBALS['conn']->query($query);
-    //         if($res){
-    //             echo 'Cadastro de empresa realizado com sucesso!';
-    //         }else{
-    //             echo 'Erro ao realizar cadastro (tabela empresa_usuario)'.$GLOBALS['conn']->error;
-    //         }
-    //     }else{
-    //         echo 'Erro ao realizar cadastro do ID'.$GLOBALS['conn']->error;
-    //     }
-    // }else{
-    //     echo 'Erro ao realizar cadastro!';
-    // }
+    $id_emp = $GLOBALS['conn']->insert_id;
+    $id_share .= $id_emp;
+    if($res){
+        $query = 'UPDATE tb_empresa SET id_share = "'.$id_share.'" WHERE cd = '.$id_emp;
+        $res = $GLOBALS['conn']->query($query);
+        if($res){
+            $query = 'INSERT INTO tb_empresa_usuario (id_usuario, id_empresa, adm) VALUES ('.$_SESSION['cdUser'].', '.$id_emp.', 1)';
+            $res = $GLOBALS['conn']->query($query);
+            if($res){
+                $query = 'UPDATE tb_usuario SET empresa = 1 WHERE cd = '.$_SESSION['cdUser'];
+                $res = $GLOBALS['conn']->query($query);
+                if($res){
+                    echo 'Cadastro de empresa realizado com sucesso!';
+                }else{
+                    echo 'Erro ao realizar cadastro (atualização tabela usuario)'.$GLOBALS['conn']->error;
+                }
+            }else{
+                echo 'Erro ao realizar cadastro (tabela empresa_usuario)'.$GLOBALS['conn']->error;
+            }
+        }else{
+            echo 'Erro ao realizar cadastro do ID'.$GLOBALS['conn']->error;
+        }
+    }else{
+         echo 'Erro ao realizar cadastro!';
+    }
 }
 function EntrarEmpresa($id){
-    $query = 'SELECT * FROM tb_empresa WHERE id_share = '.$id;
+    $query = 'SELECT * FROM tb_empresa WHERE id_share = "'.$id.'"';
     $res = $GLOBALS['conn']->query($query);
-    foreach($res as $row){
-        echo "empresa";
+    $emp = $res->fetch_object(); 
+    if($res){
+        $id_empresa = $emp->cd;
+        $query = 'INSERT INTO tb_empresa_usuario (id_empresa, id_usuario, adm) VALUES ('.$id_empresa.', '.$_SESSION['cdUser'].', 0)';
+        $res = $GLOBALS['conn']->query($query);
+        if($res){
+            $query = 'UPDATE tb_usuario SET empresa = '.$id_empresa.' WHERE cd = '.$_SESSION['cdUser'];
+            $res = $GLOBALS['conn']->query($query);
+            if($res){
+                echo 'Entrou na empresa '.$emp->nm_empresa;
+            }else{
+                echo 'Erro ao entrar na empresa (atualizar tabela usuario) '.$GLOBALS['conn']->error;
+            }
+        }else{
+            echo 'Erro ao entrar na empresa '.$GLOBALS['conn']->error;
+        }
     }
-    // if($res){
-    //     $query = 'INSERT INTO tb_empresa_usuario (id_empresa, id_usuario, adm) VALUES ()';
-    // }
 }
 function ListarTags($id_emp, $id_tag){
     $query = 'SELECT * FROM tb_empresa_tags WHERE id_empresa = '.$id_emp;
@@ -116,5 +132,24 @@ function EmpresaUsuario(){
         $return['res'] = $res;
         $return['dados'] = $res->fetch_object();
         return $return;
+    }
+}
+function CadastrarAtividade($nome, $descricao, $prazo, $tag){
+    $dataAtual = date('d/m/Y');
+    $id_admin = $_SESSION['cdUser'];
+    $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
+    $res = $GLOBALS['conn']->query($query);
+    $emp = $res->fetch_object();
+    $id_empresa = $emp->cd;
+    
+    $query = 'INSERT INTO tb_atividade';
+}
+function CadastrarTag($tag){
+    $query = 'INSERT INTO tb_tags (nm_tag) VALUES ("'.$tag.'")';
+    $res = $GLOBALS['conn']->query($query);
+    if($res){
+        echo 'Tag cadastrada com sucesso';
+    }else{
+        echo 'Erro ao cadastrar tag';
     }
 }

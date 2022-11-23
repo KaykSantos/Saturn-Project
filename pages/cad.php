@@ -5,6 +5,10 @@ if($_POST){
         CadastrarEmpresa($_POST['nome-emp'], $_POST['desc-emp']);
     }else if(isset($_POST['ent-emp'])){
         EntrarEmpresa($_POST['id-share']);
+    }else if(isset($_POST['cad-ativ'])){
+        CadastrarAtividade($_POST['nm-ativ'], $_POST['desc-ativ'], $_POST['dt-entrega'], $_POST['tags']);
+    }else if(isset($_POST['cad-tag'])){
+        CadastrarTag($_POST['nm-tag']);
     }
 }
 ?>
@@ -31,27 +35,65 @@ if($_POST){
         #form-cad button{
             margin-top: 20px;
         }
+        #nav-cad{
+            height:20px;
+            margin: 0px;
+        }
+        #nav-sec{
+            background-color: #0D0D0D;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #nav-sec a{
+            padding: 22px;
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            transition: 0.2s;
+        }
+        #nav-sec a:hover{
+            background-color: #706a6a;
+        }
     </style>
 </head>
 <body id="body-cad">
     <nav id="nav-cad">
         <p>Saturn</p>
+        
         <?php
             if($_GET['criar']){
-                            echo '
-                            <a href="atividades.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
-                            ';
-                        }else if($_GET['entrar']){
-                            echo '
-                            <a href="atividades.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
-                            ';
-                        }else if($_GET['nova-ativ']){
-                            echo '
-                            <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
-                            ';
-                        }
+                echo '
+                <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+                ';
+            }else if($_GET['entrar']){
+                echo '
+                <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+                ';
+            }else if($_GET['nova-ativ']){
+                echo '
+                <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+                ';
+            }
+            else if($_GET['users']){
+                echo '
+                <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+                ';
+            }else if($_GET['nova-tag']){
+                echo '
+                <a href="home.php"><img src="../imgs/icones/voltar.png" alt="Icone de conta" width="30px"></a>
+                ';
+            }
         ?>
+        
     </nav>
+    <div id="nav-sec">
+        <a href="?nova-ativ=1">Atividades</a>
+        <a href="?nova-tag=1">Tags</a>
+        <a href="?users=1">Usuários</a>
+    </div>
+    
     <main id="main-cad">
         <section id="section-cad">
             <form method="post" autocomplete="off" id="form-cad">
@@ -88,6 +130,12 @@ if($_POST){
                                 <option value="">Tag 2</option>
                             </select>
                             <button name="cad-ativ">Criar</button>
+                            ';
+                        }else if($_GET['nova-tag']){
+                            echo '
+                                <p>Cadastrar nova tag de atividade</p>
+                                <input type="text" id="nm-tag" name="nm-tag" placeholder="Nome da tag" class="inputLogCad">
+                                <button name="cad-tag">Cadastrar</button>
                             ';
                         }
                     }
