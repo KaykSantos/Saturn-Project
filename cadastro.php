@@ -1,9 +1,9 @@
-<?php 
+<?php
 include('php/config.php');
 if($_POST){
     if(empty($_POST['nome']) || empty($_POST['email'] || empty($_POST['password']))){
         $_SESSION['campo-vazio'] = true;
-    }else{   
+    }else{
         CadastrarUsuario($_POST['nome'], $_POST['email'], $_POST['password']);
     }
 }
@@ -38,7 +38,7 @@ if($_POST){
             </form>
             <?php
                 if(isset($_SESSION['error-cad'])):
-            ?>   
+            ?>
             <div id="error-cad">
                 <p>Erro ao realizar cadastro! Tente novamente.</p>
             </div>
@@ -48,7 +48,7 @@ if($_POST){
             ?>
             <?php
                 if(isset($_SESSION['campo-vazio'])):
-            ?>   
+            ?>
             <div id="user-bloq">
                 <p>Preencha os campos de cadastro!</p>
             </div>

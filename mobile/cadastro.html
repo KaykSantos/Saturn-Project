@@ -111,7 +111,7 @@
             .alerts{
                 text-align: center;
             }
-            #email{
+            .margin-bottom{
                 margin-bottom: 20px;
             }
             #logo{
@@ -121,10 +121,6 @@
               text-decoration: none;
               color: black;
               font-weight: bold;
-              font-size: 17px;
-            }
-            .margin-bottom{
-                margin-bottom: 20px;
             }
     </style>
 </head>
@@ -136,27 +132,26 @@
         <section id="section-login">
             <div id="form-login">
                 <img src="imgs/saturn.jpg" id="logo" width="110px">
-                <p>Login</p>
-                <input autocomplete="off" type="email" id="email" name="email" placeholder="Email" class="inputLogCad">
+                <p>Cadastro</p>
+                <input autocomplete="off" type="nome" id="nome" name="nome" placeholder="Nome" class="inputLogCad margin-bottom">
+                <input autocomplete="off" type="email" id="email" name="email" placeholder="Email" class="inputLogCad margin-bottom">
                 <input autocomplete="off" type="password" id="password" name="password" placeholder="Senha" class="inputLogCad">
-                <button id="login" name="login" class="margin-bottom">Enviar</button>
-                <div class="noStyle">Não possui conta?</div>
-                <a href="cadastro.html" class="noStyle">Cadastre-se</a>
+                <button id="login" name="login" class="margin-bottom">Cadastrar</button>
+                <div class="noStyle">Já possui conta?</div>
+                <a href="index.html" class="noStyle">Faça login</a>
             </div>
-            <div class="alerts" id="senha-invalida"></div>
-            <div class="alerts" id="usuario-bloqueado"></div>
         </section>
     </main>
     <script>
         let login = document.getElementById("login");
+        let nome = document.getElementById("nome");
         let email = document.getElementById("email");
         let password = document.getElementById("password");
 
         login.addEventListener("click", function(){
             let formData = new FormData();
-            // ========== Mudar URL para o arquivo usuario.php da nova hospedagem =========
-            // ========== Mudar login para "email" e senha para "passoword" ==========
             let url = 'https://bba.profrodolfo.com.br/saturn/php/usuario.php';
+            formData.append('nome', `${nome.value}`);
             formData.append('email', `${email.value}`);
             formData.append('password', `${password.value}`);
             fetch(url,
@@ -166,40 +161,41 @@
                     mode: 'cors',
                     cache: 'default'
                 })
-                .then(response => {response.json()
+                .then(response => {response.text()
                 .then(data => {
-                    // console.log(data);
-                    // localStorage.setItem('usuario', JSON.stringify(data.dados));
-                    // window.location.replace('home.html');
                     if(data.erro){
-                        let senhaInvalida = document.getElementById('senha-invalida');
-                        let inv = "<h3>Usuário e/ou senha inválidos</h3>";
-                        senhaInvalida.innerHTML = inv;
+                        console.log("erro");
+                        alert(data.dados);
+                        // let senhaInvalida = document.getElementById('senha-invalida');
+                        // let inv = "<h3>Usuário e/ou senha inválidos</h3>";
+                        // senhaInvalida.innerHTML = inv;
                     }else{
-                        console.log(data);
+                        console.log("cadastrado com sucesso");
+                        alert(data.dados);
+                        //log(data);
                         // alert(data.dados.nome);
                         // localStorage.setItem('usuario', JSON.stringify(data.dados));
                         //{"rm":"4028","nome":"muckz","email":"muckz@gmail.com","dt_nascimento":"2006-02-20","genero":"M","telefone":"13998765432","senha":"12345678","perfil":"","user_status":"bloqueado","obs":null,"
-                        let statusUser = data.dados.status_usuario;
-                        if(statusUser == "Bloqueado"){
-                            let user_bloq = document.getElementById('usuario-bloqueado');
-                            let bloq = "<h3>Usuário bloqueado. <br>Vá a biblioteca.</h3>";
-                            user_bloq.innerHTML = bloq;
-                        }else{
-                            localStorage.setItem('usuario', JSON.stringify(data.dados));
-                            window.location.replace('home.html');
-                        }
+                        //let statusUser = data.dados.status_usuario;
+                        //if(statusUser == "Bloqueado"){
+                          //  let user_bloq = document.getElementById('usuario-bloqueado');
+                          //  let bloq = "<h3>Usuário bloqueado. <br>Vá a biblioteca.</h3>";
+                          //  user_bloq.innerHTML = bloq;
+                        //}else{
+                        //    localStorage.setItem('usuario', JSON.stringify(data.dados));
+                        //    window.location.replace('home.html');
+
                     }
                 });
             });
         });
-        Verifica();
-        function Verifica(){
-            let user = localStorage.usuario;
-            if(user){
-                window.location.replace('home.html');
-            }
-        }
+        // Verifica();
+        // function Verifica(){
+        //     let user = localStorage.usuario;
+        //     if(user){
+        //         window.location.replace('home.html');
+        //     }
+        // }
     </script>
 </body>
 </html>
