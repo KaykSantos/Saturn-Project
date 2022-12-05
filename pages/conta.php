@@ -123,6 +123,10 @@ if($_POST){
             display: flex;
             flex-direction: row;
         }
+        .ttl{
+            font-weight: bolder;
+            font-size: 18px;
+        }
     </style>
 </head>
 <body id="body-conta">
@@ -139,9 +143,10 @@ if($_POST){
                     $res = $GLOBALS['conn']->query($query);
                     foreach($res as $row){
                         echo '
-                            <p>ID de usuário: '.$row['cd'].'</p>
-                            <p>Nome: '.$row['nm_usuario'].'</p>
-                            <p>Email: '.$row['email_usuario'].'</p>
+                            <p class="ttl">Seus dados:</p>
+                            <p><b>ID de usuário: </b>'.$row['cd'].'</p>
+                            <p><b>Nome: </b>'.$row['nm_usuario'].'</p>
+                            <p><b>Email: </b>'.$row['email_usuario'].'</p>
                             <div id="btns">
                                 <button id="alterar">Alterar</button>
                                 <button id="sair" name="sair">Sair</button>
@@ -149,9 +154,22 @@ if($_POST){
                         ';
                     }
                 ?>
-            </div>    
+            </div> 
+                <?php
+                    $query = 'SELECT * FROM tb_empresa WHERE cd = '.$_SESSION['cdEmp'];
+                    $res = $GLOBALS['conn']->query($query);
+                    foreach($res as $row){
+                        echo ' 
+                            <div class="card-conta">
+                                <p class="ttl">Empresa:</p>
+                                <p><b>Nome da empresa: </b>'.$row['nm_empresa'].'</p>
+                                <p><b>Descrição: </b>'.$row['ds_empresa'].'</p>
+                                <p><b>ID de compartilhamento: </b>'.$row['id_share'].'</p>
+                            </div>
+                        ';
+                    }
+                ?>
         </form>
-           
         <div id="msg"></div>
     </main>
     <script>

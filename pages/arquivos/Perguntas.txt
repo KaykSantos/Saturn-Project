@@ -1,0 +1,123 @@
+01 - Como linkar um arquivo PHP em outro, para utilizar suas funções? 
+(A) Utilizando o comando "include()".
+(B) Painel de configurações do phpmyadmin
+(C) 
+(D)
+
+02 - O que a função "mysqli_num_rows()" faz?
+(A) Retorna o número de resultados (em linhas) de uma query
+(B) Executa uma query definida em uma váriavel  
+(C) 
+(D) 
+
+03 - Como pegar em uma váriavel o último código cadastrado no AUTO_INCREMENT da tabela?
+(A) 
+(B)
+(C)
+(D)
+
+04 - Como delimitar o espaço do código PHP?
+(A) <?php 'código' ?>
+(B) <&> 'código' </&>
+(C) <php> 'código' </php>
+(D) <php? 'código' ?php>
+
+05 - Qual a forma correta de declarar uma váriavel?
+(A) $variavel
+(B) @variavel
+(C) let variavel
+(D) $_variavel
+
+06 - Uma váriavel de sessão, $_SESSION['variavel'], só funciona enquanto:
+(A) A janela do navegador estiver aberta.
+(B) O usuário estiver logado no site.
+(C) Os cookies estiverem ativados.
+(D) A sessão estiver criada.
+
+07 - O que o comando 'foreach()' faz?
+(A) É um laço de repetição usado para ler um array.
+(B) Apaga os cookies salvos pelo site.
+(C) Executa uma query salva em uma váriavel.
+(D) 
+
+08 - Quais das funções não executa uma query?
+(A) $result = $GLOBALS['conn']->query($query);
+(B) $result = mysql_query($query);
+(C) $result = execute_query($query);
+(D) Nenhuma das anteriores.
+
+09 - Qual comando não executa a conexão com banco de dados?
+(A) new PDO();
+(B) mysql_connect();
+(C) new MySQLi();
+(D) conect_databases();
+
+10 - Utilizando o "mysql_connect()", qual informação não é cobrada na conexão com banco de dados?
+(A) Host. 
+(B) Base.
+(C) Password.
+(D) User.
+
+11 - O que a sigla PHP significa?
+(A) Program Hypertext Pcloud  
+(B) Personal Hypertext Processor.
+(C) PHP: hypertext Preprocessor.
+(D) Private Home Page.
+
+12 - Qual a URL padrão de um servidor local de PHP/SQL?
+(A) host
+(B) local:8080
+(C) localhost
+(D) phpmyadmin
+
+13 - Como acessar o painel de controle do PHP? 
+(A) URL localhost/phpmyadmin no navegador.
+(B) Comando "dashboard -n php" no terminal.
+(C) URL phpmyadmin:8080 no navegador.
+(D) Aplicativo do painel de controle PHP 
+
+14 - Qual atributo deve ser adicionado no formulário para poder realizar o upload de arquivos?
+(A) enctype="multipart/form-data"
+(B) file-upload="on"
+(C) type="upload"
+(D) method="upload"
+
+15 - Qual a porta padrão do localhost? 
+(A) 6060
+(B) 8080
+(C) 8081
+(D) 192.168.0.0
+
+16 - Indentifique o erro no código abaixo:
+<?php
+    @nome = "Luca Poe";
+    echo @nome
+?>
+(A) Declaração de váriavel.
+(B) Echo da váriavel.
+(C) Inserção de dado na váriavel.
+(D) Uso de ponto e vírgula no final.
+
+17 - Para que serve o uso do "fetch_object"?
+(A) Acessar os dados pelos nomes dos campos.
+(B) Transformar os dados de um JSON.
+(C) Converter os dados em um objeto.
+(D) Adicionar os dados nos cookies do site.
+
+18 - Qual função é utilizada para criar um cookie com PHP?
+(A) setcookie();
+(B) 
+(C)
+(D)
+
+19 -
+(A) 
+(B)
+(C)
+(D)
+
+20 -
+(A) 
+(B)
+(C)
+(D)

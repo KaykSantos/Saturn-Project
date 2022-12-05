@@ -25,7 +25,7 @@ include('../php/config.php');
                 margin-right: auto;
                 justify-content: center;
                 align-items: center;
-                margin-bottom:150px;
+                margin-bottom:100px;
             }
             .tituloCard{
                 margin-top: 5px;
@@ -90,6 +90,7 @@ include('../php/config.php');
             }
             .noStyleA{
                 text-decoration: none;
+                color: white;
             }
             #nova-at{
                 float: right;
@@ -105,13 +106,13 @@ include('../php/config.php');
         <form id="form-ativ">
             <p class="tituloCard">Atividades:</p>
             <?php
-                $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
+                $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
-                $rows = mysqli_num_rows($res);
-                //$rows = 1;
-                $obj1 = $res->fetch_object();
-                //echo 'Número de usuários: '.$rows;
-                if($rows < 1){
+                $empresa = "";
+                foreach($res as $row){
+                    $empresa = $row['empresa'];
+                }
+                if($empresa == 0){
                     echo '
                         <div class="card-ativ">
                             <p>Entre em uma empresa para poder receber atividades.</p>
@@ -119,20 +120,20 @@ include('../php/config.php');
                             <a href="cad.php?criar=1" class="noStyleA">Criar empresa</a>
                         </div>
                     ';
-                }else if($rows == 1){
-                    $query = 'SELECT * FROM vwAtividades WHERE id_empresa = '.$obj1->id_empresa;
+                }else{
+                    $query = 'SELECT * FROM vwAtividades WHERE id_empresa = '.$_SESSION['cdEmp'].' ORDER BY dt_entrega DESC';
                     $res = $GLOBALS['conn']->query($query);
                     foreach($res as $row){
+                        $dt_entrega = date('d/m/Y', strtotime($row['dt_entrega']));
                         echo '
                             <div class="card-ativ">
                                 <p>Atividade: '.$row['nm_atividade'].'</p>
                                 <p>Tag: '.$row['nm_tag'].'</p>
-                                <p>Vencimento: '.$row['dt_entrega'].'</p>
-                                <button>Abrir</button>
+                                <p>Vencimento: '.$dt_entrega.'</p>
+                                <button><a href="cad.php?ativ='.$row['cd'].'" class="noStyleA">Abrir</a></button>
                             </div>
-
                         ';
-                    }                            
+                    }
                 }
             ?>
             <!--<p class="tituloCard">Atividades:</p>

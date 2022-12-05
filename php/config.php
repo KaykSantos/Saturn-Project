@@ -28,6 +28,26 @@ function CadastrarUsuario($nome, $email, $senha){
         }
     }
 }
+function CadastrarUsuarioMobile($nome, $email, $senha){
+    $query = 'SELECT * FROM tb_usuario WHERE email_usuario = "'.$email.'"';
+    $res = $GLOBALS['conn']->query($query);
+    $user = mysqli_num_rows($res);
+    if($user > 0){
+        $return['email'] = true;
+        $return['erro'] = true;
+    }else{
+        $query = 'INSERT INTO tb_usuario (nm_usuario, email_usuario, senha, status_usuario, empresa)
+        VALUES ("'.$nome.'", "'.$email.'", "'.$senha.'", "Ativo", 0)';
+        $res = $GLOBALS['conn']->query($query);
+        if($res){
+            $return['erro'] = false;
+            $return['dados'] = $res;
+        }else{
+            $return['erro'] = true;
+        }
+    }
+    echo json_encode($return);
+}
 function LoginUsuario($email, $senha, $type){
     $query = 'SELECT * FROM tb_usuario WHERE email_usuario = "'.$email.'" AND senha = "'.$senha.'"';
     $res = $GLOBALS['conn']->query($query);
@@ -39,6 +59,7 @@ function LoginUsuario($email, $senha, $type){
             }else{
                 $_SESSION['cdUser'] = $row['cd'];
                 $_SESSION['nmUser'] = $row['nm_usuario'];
+                $_SESSION['cdEmp'] = $row['empresa']; 
                 header('Location: ./pages/home.php');
             }
         }
@@ -78,10 +99,12 @@ function CadastrarEmpresa($nome, $descricao){
             $query = 'INSERT INTO tb_empresa_usuario (id_usuario, id_empresa, adm) VALUES ('.$_SESSION['cdUser'].', '.$id_emp.', 1)';
             $res = $GLOBALS['conn']->query($query);
             if($res){
-                $query = 'UPDATE tb_usuario SET empresa = 1 WHERE cd = '.$_SESSION['cdUser'];
+                $query = 'UPDATE tb_usuario SET empresa = '.$id_emp.' WHERE cd = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
                 if($res){
-                    echo 'Cadastro de empresa realizado com sucesso!';
+                    header("Location: home.php");
+                    $_SESSION['cdEmp'] = $id_empresa;
+                    $_SESSION['make-emp'] = true;
                 }else{
                     echo 'Erro ao realizar cadastro (atualização tabela usuario)'.$GLOBALS['conn']->error;
                 }
@@ -107,7 +130,9 @@ function EntrarEmpresa($id){
             $query = 'UPDATE tb_usuario SET empresa = '.$id_empresa.' WHERE cd = '.$_SESSION['cdUser'];
             $res = $GLOBALS['conn']->query($query);
             if($res){
-                echo 'Entrou na empresa '.$emp->nm_empresa;
+                header("Location: home.php");
+                $_SESSION['cdEmp'] = $id_empresa;
+                $_SESSION['ent-emp'] = true;
             }else{
                 echo 'Erro ao entrar na empresa (atualizar tabela usuario) '.$GLOBALS['conn']->error;
             }
@@ -116,13 +141,36 @@ function EntrarEmpresa($id){
         }
     }
 }
-function ListarTags($id_emp, $id_tag){
-    $query = 'SELECT * FROM tb_empresa_tags WHERE id_empresa = '.$id_emp;
+function ListarTag($id_emp, $id_tag){
+    $query = 'SELECT * FROM tb_tags WHERE id_empresa = '.$id_emp;
     if($id_tag != 0){
-        $query .= ' AND id_tag = '.$id_tag;
+        $query .= ' AND cd = '.$id_tag;
     }
     $res = $GLOBALS['conn']->query($query);
     return $res;
+}
+function ListarUsuario($cd, $empresa){
+    $query = 'SELECT * FROM tb_usuario';
+    $ver == false;
+    
+    if($cd != 0){
+        $query .= ' WHERE cd = '.$cd.'';
+        if($empresa != 0){
+            $query .= ' AND empresa = '.$empresa;
+            $ver = true;
+        }
+    }
+    if($ver == false){
+       if($empresa != 0){
+            $query .= ' WHERE empresa = '.$empresa;
+            if($cd != 0){
+                $query .= ' AND cd = '.$cd.'';
+            }
+        } 
+    }
+    
+    $res = $GLOBALS['conn']->query($query);
+    return $res; 
 }
 function EmpresaUsuario(){
     $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$_SESSION['cdUser'];
@@ -135,21 +183,97 @@ function EmpresaUsuario(){
     }
 }
 function CadastrarAtividade($nome, $descricao, $prazo, $tag){
-    $dataAtual = date('d/m/Y');
+    //cd	nm_atividade	ds_atividade	status_atividade	dt_postagem	dt_entrega	id_admin	id_tag	id_empresa
+    $statusAtt = "Pendente";
+    $dataAtual = date('Y-m-d'); //Data atual
     $id_admin = $_SESSION['cdUser'];
-    $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
+    $id_empresa = $_SESSION['cdEmp'];
+    $query = 'INSERT INTO tb_atividade (nm_atividade, ds_atividade, status_atividade, dt_postagem, dt_entrega, id_admin, id_tag, id_empresa)
+    VALUES ("'.$nome.'", "'.$descricao.'", "'.$statusAtt.'", "'.$dataAtual.'", "'.$prazo.'", '.$id_admin.','.$tag.', '.$id_empresa.')';
     $res = $GLOBALS['conn']->query($query);
-    $emp = $res->fetch_object();
-    $id_empresa = $emp->cd;
-    
-    $query = 'INSERT INTO tb_atividade';
+    if($res){
+        echo 'Atividade criada com sucesso!';
+    }else{
+        echo 'Erro ao realizar cadastro!'.$GLOBALS['conn']->error;
+    }
 }
-function CadastrarTag($tag){
-    $query = 'INSERT INTO tb_tags (nm_tag) VALUES ("'.$tag.'")';
+function CadastrarTag($tag, $id_emp){
+    $query = 'INSERT INTO tb_tags (nm_tag, id_empresa) VALUES ("'.$tag.'", '.$id_emp.')';
     $res = $GLOBALS['conn']->query($query);
     if($res){
         echo 'Tag cadastrada com sucesso';
     }else{
         echo 'Erro ao cadastrar tag';
     }
+}
+function VerificarAdm($cdUser){
+    $query = 'SELECT * FROM tb_empresa_usuario WHERE id_usuario = '.$cdUser.' AND adm = 1';
+    $res = $GLOBALS['conn']->query($query);
+    $row = mysqli_num_rows($res);
+    $adm = false;
+    if($row == 1){
+        $adm = true;
+    }else if($row == 0){
+        $adm = false;
+    }
+    return $adm;
+}
+function UploadArchive($archive, $desc, $tag){
+    $dataAtual = date('Y-m-d'); //Data atual
+    $dir = 'arquivos/';
+    // print_r($archive);
+    if(move_uploaded_file($archive['tmp_name'], $dir.'/'.$archive['name'])){
+        $query = 'INSERT INTO tb_arquivo (nm_arquivo, ds_arquivo, id_empresa, id_admin, id_tag, dt_postagem) 
+        VALUES ("'.$archive['name'].'", "'.$desc.'", '.$_SESSION['cdEmp'].', '.$_SESSION['cdUser'].', '.$tag.', "'.$dataAtual.'")';
+        $res = $GLOBALS['conn']->query($query);
+        if($res){
+            echo 'Arquivo upado e cadastrado!';
+        }else{
+            echo 'Erro ao cadastrar!'.$GLOBALS['conn']->error;
+        }
+    }else{
+        echo 'Erro ao upar arquivo! '.$GLOBALS['conn']->error;
+    }
+}
+function ListarAtividadesMobile($cd, $emp){
+    $query = 'SELECT * FROM vwAtividades';
+    
+    if($cd != 0){
+        $query .= ' WHERE cd = '.$cd.'';
+        if($emp != 0){
+            $query .= ' AND id_empresa = '.$emp;
+            $ver = true;
+        }
+    }
+    if($ver == false){
+       if($emp != 0){
+            $query .= ' WHERE id_empresa = '.$emp;
+            if($cd != 0){
+                $query .= ' AND cd = '.$cd.'';
+            }
+        } 
+    }    
+    $res = $GLOBALS['conn']->query($query);
+    return $res;
+}
+function ListarArquivosMobile($cd, $emp){
+    $query = 'SELECT * FROM vwArquivos';
+    
+    if($cd != 0){
+        $query .= ' WHERE cd = '.$cd.'';
+        if($emp != 0){
+            $query .= ' AND id_empresa = '.$emp;
+            $ver = true;
+        }
+    }
+    if($ver == false){
+       if($emp != 0){
+            $query .= ' WHERE id_empresa = '.$emp;
+            if($cd != 0){
+                $query .= ' AND cd = '.$cd.'';
+            }
+        } 
+    }    
+    $res = $GLOBALS['conn']->query($query);
+    return $res;
 }

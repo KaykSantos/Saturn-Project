@@ -45,10 +45,30 @@ if(!isset($_SESSION['cdUser'])){
                 padding-bottom: 10px;
                 box-shadow: 4px 3px rgb(117, 114, 114); 
             }
+            #form-arch-home{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+                background-color: white;
+                padding-bottom: 10px;
+            }
+            #d-ativ{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+                background-color: white;
+                padding-bottom: 10px;
+            }
             .card-home{
                 border: 1px solid black;
                 border-radius: 5px;
-                width: 90%;
+                width: 300px;
                 padding: 10px;
                 margin-top: 10px;
                 margin-left: auto;
@@ -70,6 +90,33 @@ if(!isset($_SESSION['cdUser'])){
                 font-weight: bold;
                 color: white
             }
+            .card-arch{
+                border: 1px solid black;
+                border-radius: 5px;
+                width: 200px;
+                height: 150px;
+                padding: 10px;
+                margin-top: 10px;
+                /*margin-left: 10px;*/
+                margin-left: auto;
+                margin-right: auto;
+                background-color: white;
+            }
+            .card-arch p{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .card-arch button{
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                background-color: #0D0D0D;
+                color: white;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: white;
+            }
             #nav-home{
                 background-color: #0D0D0D;
                 display: flex;
@@ -89,10 +136,42 @@ if(!isset($_SESSION['cdUser'])){
             }
             .noStyleA{
                 text-decoration: none;
+                color: white;
+            }
+            .btn{
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                background-color: #0D0D0D;
+                color: white;
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: white;
             }
             #img-add{
                 border: 4px solid white;
                 border-radius: 30px;
+            }
+            .mg{
+                margin-bottom: 20px;
+            }
+            .text{
+                height: 120px;
+            }
+            #ent-emp{
+                width: 340px;
+                height: 50px;
+                background-color: rgb(95, 255, 167);
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                margin-top: 20px;
+                border-radius: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
             }
     </style>
 </head>
@@ -125,9 +204,29 @@ if(!isset($_SESSION['cdUser'])){
         </div>
         
     </nav>
+    <?php
+        if(isset($_SESSION['ent-emp'])):
+    ?>   
+    <div id="ent-emp">
+        <p>Entrou na empresa!</p>
+    </div>
+    <?php
+        endif;
+        unset($_SESSION['ent-emp']);
+    ?>
+    <?php
+        if(isset($_SESSION['make-emp'])):
+    ?>   
+    <div id="ent-emp">
+        <p>Criou a empresa!</p>
+    </div>
+    <?php
+        endif;
+        unset($_SESSION['make-emp']);
+    ?>
     <main id="main-home">
         <form method="post" id="form-home">
-            <p class="tituloCard">Atividades:</p>
+            
             <?php
                 $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
                 $res = $GLOBALS['conn']->query($query);
@@ -139,22 +238,94 @@ if(!isset($_SESSION['cdUser'])){
                     echo '
                         <div class="card-home">
                             <p>Entre em uma empresa para poder receber atividades.</p>
-                            <a href="cad.php?entrar=1" class="noStyleA">Entrar</a>
-                            <a href="cad.php?criar=1" class="noStyleA">Criar empresa</a>
+                            <button><a href="cad.php?entrar=1" class="btn noStyleA">Entrar</a></button>
+                            <button><a href="cad.php?criar=1" class="btn noStyleA">Criar empresa</a></button>
                         </div>
                     ';
                 }else{
-                    echo 'Está na empresa';
+                    echo '<p class="tituloCard">Atividades:</p>
+                            <div id="d-ativ">
+                    ';
+                    $query = 'SELECT * FROM vwAtividades WHERE id_empresa = '.$_SESSION['cdEmp'].' ORDER BY dt_entrega DESC';
+                    $res = $GLOBALS['conn']->query($query);
+                    $rows = mysqli_num_rows($res);
+                    $vermais = false;
+                    if($rows > 2){
+                        $query = 'SELECT * FROM vwAtividades WHERE id_empresa = '.$_SESSION['cdEmp'].' ORDER BY dt_entrega DESC LIMIT 0,2';
+                        $res = $GLOBALS['conn']->query($query);
+                        $vermais = true;
+                        $btnVerMais = '<a href="atividades.php" class="tituloCard" style="text-decoration: none;">Ver mais...</a>';
+                    }
+                    foreach($res as $row){
+                        $dt_entrega = date('d/m/Y', strtotime($row['dt_entrega']));
+                        echo '
+                            <div class="card-home">
+                                <p>Nome: '.$row['nm_atividade'].'</p>
+                                <p>Tag: '.$row['nm_tag'].'</p>
+                                <p>Vencimento: '.$dt_entrega.'</p>
+                                <button><a href="cad.php?ativ='.$row['cd'].'" class="noStyleA">Abrir</a></button>
+                            </div>
+                        ';
+                        
+                    }
+                    if($vermais){
+                        echo '</div>';
+                        echo $btnVerMais;
+                    }else{
+                        echo '</div>';
+                    }
                 }
             ?>
-            <!---<div class="card-home">
-                <p>Atividade: Título</p>
-                <p>Tag: Nome Tag</p>
-                <p>Vencimento: dd/mm/yyyy</p>
-                <button>Abrir</button>
-            </div>
-            <a href="atividades.php" class="noStyleA"><p class="tituloCard">Ver mais...</p></a>-->
-        </form>      
+            
+        </form>   
+
+            <?php
+               
+                $query = 'SELECT * FROM tb_usuario WHERE cd = '.$_SESSION['cdUser'];
+                $res = $GLOBALS['conn']->query($query);
+                $empresa = "";
+                foreach($res as $row){
+                    $empresa = $row['empresa'];
+                }
+                if($empresa > 0){
+                    echo '
+                        <div id="form-home" style="margin-top: 20px;" class="mg">
+                            <p class="tituloCard">Arquivos</p>
+                            <div id="form-arch-home">                
+                    ';
+                    $query = 'SELECT * FROM vwArquivos WHERE id_empresa = '.$_SESSION['cdEmp'].' ORDER BY dt_postagem DESC';
+                    $res = $GLOBALS['conn']->query($query);
+                    $rows = mysqli_num_rows($res);
+                    $vermais = false;
+                    if($rows > 3){
+                        $query = 'SELECT * FROM vwArquivos WHERE id_empresa = '.$_SESSION['cdEmp'].' ORDER BY dt_postagem DESC LIMIT 0,3';
+                        $res = $GLOBALS['conn']->query($query);
+                        
+                        $vermais = true;
+                        $btnVerMais = '<a href="archives.php" class="tituloCard" style="text-decoration: none;">Ver mais...</a>';
+                    }
+                    foreach($res as $row){
+                        $dt_postagem = date('d/m/Y', strtotime($row['dt_postagem']));
+                        echo '
+                            <div class="card-arch">
+                                <div class="text"> 
+                                <p>Atividade: '.$row['nm_arquivo'].'</p>
+                                <p>Tag: '.$row['nm_tag'].'</p>
+                                <p>Postado por: '.$row['nm_usuario'].', em '.$dt_postagem.'.</p>
+                                </div>
+                                <button><a href="cad.php?arch='.$row['cd'].'" class="noStyleA">Abrir</a></button>
+                            </div>
+                        ';
+                    }
+                    if($vermais){
+                        echo '</div>';
+                        echo $btnVerMais;
+                    }else{
+                        echo '</div>';
+                    }
+                }
+            ?>
+        </div>
     </main>
 </body>
 </html>

@@ -56,7 +56,15 @@ CREATE TABLE tb_empresa_tag(
 );
 
 CREATE VIEW vwAtividades AS 
-    SELECT a.*, tag.nm_tag AS nm_tag,e.cd AS nm_empresa
-        FROM tb_tags tag, tb_atividade a,tb_empresa e
+    SELECT a.*, tag.nm_tag AS nm_tag,e.nm_empresa AS nm_empresa, u.nm_usuario AS nm_usuario
+        FROM tb_tags tag, tb_atividade a,tb_empresa e, tb_usuario u
 			WHERE a.id_tag = tag.cd 
-			AND e.cd = a.id_empresa;
+			AND e.cd = a.id_empresa
+			AND a.id_admin = u.cd;
+			
+CREATE VIEW vwArquivos AS 
+    SELECT a.*, t.nm_tag AS nm_tag,e.nm_empresa AS nm_empresa, u.nm_usuario AS nm_usuario
+        FROM tb_tags t, tb_arquivo a,tb_empresa e, tb_usuario u
+			WHERE a.id_tag = t.cd 
+			AND e.cd = a.id_empresa
+			AND a.id_admin = u.cd;

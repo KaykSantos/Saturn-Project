@@ -1,19 +1,17 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <script src="components/loader.js"></script>
-    <title>Saturn</title>
-    <link rel="stylesheet" href="components/loader.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-     <style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Eta Carinae</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />-->
+    <style>
         @charset "UTF-8";
             @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             #body-login{
                 font-family: 'Work Sans', sans-serif;
-                background-color: white;
+                background-color: #bfddf8;
                 margin: 0px;
                 padding: 0px;
             }
@@ -36,36 +34,29 @@
                 text-align: center;
                 justify-content: center;
                 align-items: center;
-                background-color: white;
-                box-shadow: 4px 3px rgb(117, 114, 114);
+                background-color: #1C618C;
             }
             #form-login input{
-                margin-top: 0px;
+                margin-top: 20px;
                 width: 100%;
             }
             #form-login p{
-                color: black;
+                color: white;
                 text-transform: uppercase;
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: bold;
-                margin-top: 5px;
-                margin-bottom: 5px;
             }
             #form-login button{
                 margin-top: 10px;
-                width: 100px;
+                width: 70px;
                 height: 30px;
                 border-radius: 5px;
                 border: none;
-                background-color: #0D0D0D;
-                color: white;
-                font-size: 17px;
-                font-weight: bolder;
                 transition: 0.2s;
             }
             #form-login button:hover{
                 cursor: pointer;
-                background-color: rgb(75, 72, 72);
+                background-color: rgb(204, 181, 181);
             }
             #nav-login{
                 background-color: #0D0D0D;
@@ -78,12 +69,10 @@
             }
             #nav-login p{
                 margin-top: 0px;
-                margin-bottom: 0px;
                 font-size: 25px;
                 text-transform: uppercase;
                 font-weight: bold;
-                color: white;
-                letter-spacing: 3px;
+                color: white
             }
             #nav-login div a{
                 padding: 22px;
@@ -97,51 +86,29 @@
             .inputLogCad{
                 height: 25px;
                 padding: 5px;
-                border: 2px solid black;
-                border-radius: 2px;
+                border-radius: 5px;
                 border: none;
-                border-bottom:2px solid black;
                 outline: none;
-                background-color: white;
             }
             .inputLogCad:focus{
                 border-bottom: 2px solid black;
-                background-color: #d4efff;
             }
             .alerts{
                 text-align: center;
-            }
-            #email{
-                margin-bottom: 20px;
-            }
-            #logo{
-                margin-top: 0px;
-            }
-            .noStyle{
-              text-decoration: none;
-              color: black;
-              font-weight: bold;
-              font-size: 17px;
-            }
-            .margin-bottom{
-                margin-bottom: 20px;
             }
     </style>
 </head>
 <body id="body-login">
     <nav id="nav-login">
-        <p>Saturn</p>
+        <p>Eta Carinae</p>
     </nav>
     <main id="main-login">
         <section id="section-login">
             <div id="form-login">
-                <img src="imgs/saturn.jpg" id="logo" width="110px">
                 <p>Login</p>
                 <input autocomplete="off" type="email" id="email" name="email" placeholder="Email" class="inputLogCad">
                 <input autocomplete="off" type="password" id="password" name="password" placeholder="Senha" class="inputLogCad">
-                <button id="login" name="login" class="margin-bottom">Enviar</button>
-                <div class="noStyle">Não possui conta?</div>
-                <a href="cadastro.html" class="noStyle">Cadastre-se</a>
+                <button id="login" name="login">Enviar</button>
             </div>
             <div class="alerts" id="senha-invalida"></div>
             <div class="alerts" id="usuario-bloqueado"></div>
@@ -156,19 +123,20 @@
             let formData = new FormData();
             // ========== Mudar URL para o arquivo usuario.php da nova hospedagem =========
             // ========== Mudar login para "email" e senha para "passoword" ==========
-            let url = 'https://bba.profrodolfo.com.br/saturn/php/usuario.php';
-            formData.append('email', `${email.value}`);
-            formData.append('password', `${password.value}`);
+            let url = 'https://bba.profrodolfo.com.br/usuario.php';
+            formData.append('login', `${email.value}`);
+            formData.append('senha', `${password.value}`);
             fetch(url,
                 {
                     body: formData,
                     method: "post",
                     mode: 'cors',
                     cache: 'default'
-                })
+                })  
                 .then(response => {response.json()
                 .then(data => {
                     // console.log(data);
+                    // alert(data.dados.nome);
                     // localStorage.setItem('usuario', JSON.stringify(data.dados));
                     // window.location.replace('home.html');
                     if(data.erro){
@@ -176,12 +144,13 @@
                         let inv = "<h3>Usuário e/ou senha inválidos</h3>";
                         senhaInvalida.innerHTML = inv;
                     }else{
-                        console.log(data);
                         // alert(data.dados.nome);
-                        // localStorage.setItem('usuario', JSON.stringify(data.dados));
+                        localStorage.setItem('usuario', JSON.stringify(data.dados));
+                        window.location.replace('acervo.html');
                         //{"rm":"4028","nome":"muckz","email":"muckz@gmail.com","dt_nascimento":"2006-02-20","genero":"M","telefone":"13998765432","senha":"12345678","perfil":"","user_status":"bloqueado","obs":null,"
-                        let statusUser = data.dados.status_usuario;
-                        if(statusUser == "Bloqueado"){
+                        let statusUser = data.dados.user_status;
+
+                        if(statusUser == "bloqueado"){
                             let user_bloq = document.getElementById('usuario-bloqueado');
                             let bloq = "<h3>Usuário bloqueado. <br>Vá a biblioteca.</h3>";
                             user_bloq.innerHTML = bloq;
@@ -193,13 +162,32 @@
                 });
             });
         });
-        Verifica();
-        function Verifica(){
-            let user = localStorage.usuario;
-            if(user){
-                window.location.replace('home.html');
-            }
-        }
+        // .then(data => {
+        //     // console.log(data);
+        //     // alert(data.dados.nome);
+        //     // localStorage.setItem('usuario', JSON.stringify(data.dados));
+        //     // window.location.replace('home.html');
+        //     if(data.erro){
+        //         let senhaInvalida = document.getElementById('senha-invalida');
+        //         let inv = "<h3>Usuário e/ou senha inválidos</h3>";
+        //         senhaInvalida.innerHTML = inv;
+        //     }else{
+        //         // alert(data.dados.nome);
+        //         localStorage.setItem('usuario', JSON.stringify(data.dados));
+        //         window.location.replace('home.html');
+        //         //{"rm":"4028","nome":"muckz","email":"muckz@gmail.com","dt_nascimento":"2006-02-20","genero":"M","telefone":"13998765432","senha":"12345678","perfil":"","user_status":"bloqueado","obs":null,"
+        //         let statusUser = data.dados.status_usuario;
+
+        //         if(statusUser == "Bloqueado"){
+        //             let user_bloq = document.getElementById('usuario-bloqueado');
+        //             let bloq = "<h3>Usuário bloqueado. <br>Vá a biblioteca.</h3>";
+        //             user_bloq.innerHTML = bloq;
+        //         }else{
+        //             localStorage.setItem('usuario', JSON.stringify(data.dados));
+        //             window.location.replace('acervo.html');
+        //         }
+        //     }
+        // });
     </script>
 </body>
 </html>

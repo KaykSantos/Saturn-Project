@@ -595,3 +595,77 @@ Stack trace:
 #0 /home1/devjekvf/public_html/saturn/pages/cad.php(7): EntrarEmpresa('et32')
 #1 {main}
   thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 106
+[28-Nov-2022 18:11:41 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:12:09 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:12:12 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:12:14 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:15:49 America/Fortaleza] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ListarTag(), 1 passed in /home1/devjekvf/public_html/saturn/pages/cad.php on line 130 and exactly 2 expected in /home1/devjekvf/public_html/saturn/php/config.php:139
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(130): ListarTag(0)
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 139
+[28-Nov-2022 18:17:48 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:19:49 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 18:20:16 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 131
+[28-Nov-2022 19:29:07 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 146
+[28-Nov-2022 20:50:00 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/cad.php on line 211
+[28-Nov-2022 21:53:10 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/home.php on line 152
+[28-Nov-2022 22:11:28 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/atividades.php on line 125
+[28-Nov-2022 23:40:36 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home1/devjekvf/public_html/saturn/pages/cad.php on line 161
+[28-Nov-2022 23:40:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function VerificarAdm() in /home1/devjekvf/public_html/saturn/pages/cad.php:159
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/cad.php on line 159
+[29-Nov-2022 15:11:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function move_upload_files() in /home1/devjekvf/public_html/saturn/php/config.php:226
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(13): UploadArchive(Array, 'asd')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 226
+[29-Nov-2022 15:17:53 America/Fortaleza] PHP Parse error:  syntax error, unexpected '!', expecting ';' or ',' in /home1/devjekvf/public_html/saturn/php/config.php on line 221
+[29-Nov-2022 15:18:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function move_upload_files() in /home1/devjekvf/public_html/saturn/php/config.php:220
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(13): UploadArchive(Array, '')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:18:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function move_uploaded_files() in /home1/devjekvf/public_html/saturn/php/config.php:220
+Stack trace:
+#0 /home1/devjekvf/public_html/saturn/pages/cad.php(13): UploadArchive(Array, '')
+#1 {main}
+  thrown in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:20:21 America/Fortaleza] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:20:21 America/Fortaleza] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqDanCC' to '../arquivos/' in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:22:05 America/Fortaleza] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:22:05 America/Fortaleza] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phph62Oos' to 'arquivos/' in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:22:40 America/Fortaleza] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:22:40 America/Fortaleza] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpInNmnK' to 'arquivos/' in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:23:13 America/Fortaleza] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:23:13 America/Fortaleza] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXJajEW' to 'arquivos/' in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:23:58 America/Fortaleza] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 15:23:58 America/Fortaleza] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpp8k5WB' to 'arquivos/' in /home1/devjekvf/public_html/saturn/php/config.php on line 220
+[29-Nov-2022 16:23:05 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/home.php on line 191
+[29-Nov-2022 16:23:05 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/home.php on line 199
+[01-Dec-2022 20:23:00 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 208
+[01-Dec-2022 20:23:00 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 292
+[01-Dec-2022 20:32:35 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 208
+[01-Dec-2022 20:32:35 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 292
+[01-Dec-2022 20:32:37 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 208
+[01-Dec-2022 20:32:37 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 292
+[01-Dec-2022 20:33:48 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 208
+[01-Dec-2022 20:40:41 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 208
+[01-Dec-2022 20:40:41 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/cad.php on line 293
+[01-Dec-2022 20:43:27 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/home.php on line 111
+[01-Dec-2022 20:43:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/home.php:112
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/home.php on line 112
+[01-Dec-2022 21:26:02 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/archives.php on line 126
+[01-Dec-2022 21:26:34 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/archives.php on line 126
+[01-Dec-2022 21:26:51 America/Fortaleza] PHP Warning:  Invalid argument supplied for foreach() in /home1/devjekvf/public_html/saturn/pages/archives.php on line 126
+[02-Dec-2022 19:01:39 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /home1/devjekvf/public_html/saturn/pages/home.php on line 253
+[02-Dec-2022 20:39:26 America/Fortaleza] PHP Parse error:  syntax error, unexpected '<' in /home1/devjekvf/public_html/saturn/pages/home.php on line 230
+[02-Dec-2022 21:03:58 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/php/config.php on line 210
+[03-Dec-2022 19:12:58 America/Fortaleza] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home1/devjekvf/public_html/saturn/pages/home.php on line 186
+[03-Dec-2022 19:12:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home1/devjekvf/public_html/saturn/pages/home.php:187
+Stack trace:
+#0 {main}
+  thrown in /home1/devjekvf/public_html/saturn/pages/home.php on line 187
